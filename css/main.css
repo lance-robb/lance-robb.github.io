@@ -1,3 +1,8 @@
+#container {
+    display: inline-block;
+    width: 640px;
+}
+
 h1, footer {
     background-color: #433f96;
     color: cornflowerblue;
@@ -5,25 +10,6 @@ h1, footer {
     padding: 1rem;
     text-align: center;
     border-radius: 11px;
-}
-
-h2 {
-    text-align: left;
-}
-
-ul {
-    list-style: none;
-    text-align: left;
-    margin-left: 22px;
-}
-
-body {
-    text-align: center;
-}
-
-#container {
-    display: inline-block;
-    width: 640px;
 }
 
 h1 {
@@ -39,6 +25,21 @@ img {
     border: .5px solid cornflowerblue;
     border-radius: 8px;
     box-shadow: 13px 13px 13px cornflowerblue;
+}
+
+h2 {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 22px;
+}
+
+body {
+    text-align: center;
 }
 
 footer {
@@ -57,4 +58,16 @@ footer a:link {
 
 footer a:visited {
     color: deeppink;
+}
+
+@media screen and (max-width: 475px) {
+    #container {
+        display: inline-flexbox;
+        width: 400px;
+}
+
+@media screen and (max-width: 375px) {
+    #container {
+        display: inline-flexbox;
+        width: 325px;
 }
