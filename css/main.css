@@ -62,12 +62,11 @@ footer a:visited {
 
 @media screen and (max-width: 475px) {
     #container {
-        display: inline-flexbox;
         width: 400px;
 }
-
+}
 @media screen and (max-width: 375px) {
     #container {
-        display: inline-flexbox;
         width: 325px;
+}
 }
