@@ -4,24 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="Document Description">
+    <title>WDD 230 Assignment Portal</title>
+    <meta name="author" content="Lance Robb">
+    <meta name="description"
+        content="A Student Assignment Portal page with links and information about the WDD 230 course at Brigham Young University - Idaho">
     <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>This my test page</h1>
-    </header>
-    <nav></nav>
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eos aut dolorum dicta earum officia ab cum
-            blanditiis unde nemo voluptates molestiae atque sapiente in fuga deleniti nesciunt fugit iusto.</p>
-    </main>
-    <footer>
-        &copy; 2020 | My Web Page | All Rights Reserved | Today's Date: <span id="currentdate"></span>
-    </footer>
-    <script src="js/currentdate.js"></script>
+    <div id="container">
+        <header>
+            <img src="images/Robb-tn.jpg" alt="Lance Robb thumbnail photo">
+            <h1>Lance Robb</h1>
+        </header>
+        <main>
+            <h2>WDD 230: Assignment Portal</h2>
+            <hr>
+            <nav>
+                <ul>
+                    <li>Lesson 02: <a href="">Assignment Link</a></li>
+                    <li>Lesson 03: <a href="">Assignment Link</a></li>
+                    <li>Lesson 04: <a href="">Link</a> | <a href="">Link</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            &copy; 2020 | Lance Robb | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+            <span class="update">Last Updated: <span id="updatedate"></span></span>
+        </footer>
+        <script src="js/updatedate.js"></script>
+    </div>
 </body>
 
 </html>
