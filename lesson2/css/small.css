@@ -4,18 +4,19 @@ body {
 }
 
 h1 {
+    background-color: #0cd05f;
+    padding: 16px 24px;
     color: #f8f8ff;
 }
 
 header {
-    height: 200px;
+    height: 180px;
     background-color: #888b85;        
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3.5%;
 }
 
 #plaque {
-    width: 50%;
     background-color: #0cd05f;
     font-size: 20px;
     margin: auto;
@@ -23,11 +24,8 @@ header {
     border-radius: 10px;
 }
 
-h3 {
-    background-color: #0cd05f;
-    padding: 16px 24px;
+h2 {
     color: #f8f8ff;
-    position: relative;
 }
 
 p {
@@ -59,7 +57,10 @@ img {
 }
 
 .links {
+    background-color: #0cd05f;
     color: #f8f8ff;
+    padding: 2.5px 8px;
+    border-radius: 15px;
 }
 
 footer a:link {
