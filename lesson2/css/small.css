@@ -25,7 +25,7 @@ header {
 }
 
 h2 {
-    background-color: #343739;
+    background-color: #103859;
     color: #f8f8ff;
 }
 
@@ -64,17 +64,17 @@ img {
 
 .links {
     background-color: #0cd05f;
-    color: #f8f8ff;
+    color: #103859;
     padding: 4px 15px;
     border-radius: 35px;
 }
 
 footer a:link {
-    color: #e7f70a;
+    color: #103859;
 }
 
 footer a:visited {
-    color: deeppink;
+    color: #0a0a0a;
 }
 
 footer {
