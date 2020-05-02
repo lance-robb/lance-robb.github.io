@@ -16,9 +16,7 @@ header {
 
 #plaque {
     width: 50%;
-    display: relative;
     background-color: #0cd05f;
-    padding: auto;
     font-size: 20px;
     margin: auto;
     border: 3px solid #0876db;
