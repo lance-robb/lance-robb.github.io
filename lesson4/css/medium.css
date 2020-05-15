@@ -37,5 +37,12 @@
         background-color: #2ea7e0;
         color: #000;
     }
+
+    footer {
+      max-width: 82%;
+      margin: 0 auto;
+      border-left: 3px solid #023e58;
+      border-right: 3px solid #023e58;
+    }
    
   }
