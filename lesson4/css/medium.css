@@ -1,0 +1,41 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 35em) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pageTitle {
+        padding-left: 15px;
+    }
+
+    h1 {
+      font-size: 3.5em;
+    }
+  
+    #motto {
+      font-size: 1.8rem;  
+    }
+    
+    .navigation {
+      display: flex;
+    }
+  
+    .navigation li {
+      flex: 1 1 100%;
+    }
+    
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    .contentbox {
+        line-height: 1.5em;
+        border: 3px dashed #023e58;
+        background-color: #2ea7e0;
+        color: #000;
+    }
+   
+  }

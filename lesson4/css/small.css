@@ -1,0 +1,122 @@
+body {
+    font-family: 'Acme', sans-serif;
+    display: block;
+    text-align: center;
+    background-color: #ebffdd;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    border: 15px solid #82bc00;
+    border-radius: 100px;
+    background-color: #ebffdd;
+}
+
+header {
+    padding-top: 10px;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    color: #ebffdd;
+    background-color: #0083c6;
+}
+
+main {
+    padding: 25px;
+}
+
+nav {
+    width: 100%;
+    background-color: #023e58;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: -15px auto;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #82bc00;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Fjalla One", sans-serif;
+}
+
+nav a:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    max-width: 98%;
+    margin-bottom: -5px;
+}
+
+#motto {
+    letter-spacing: 1.5pt;
+    font-size: 1.5em;  
+  }
+
+h2 {
+    font-family: 'Acme', sans-serif;
+}
+
+.city {
+    font-size: 2em;
+}
+
+.contentbox {
+    font-family: "Crete Round", sans-serif;
+    font-size: 1.2em;
+    margin: 10px auto;
+    border: 2px dashed #023e58;
+    padding: 15px;
+    max-width: 85%;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2em;
+    font-family: "Crete Round", sans-serif;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+    border-top: 3px solid #023e58;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ebffdd;
+}
+
+footer a:hover {
+    background-color: #82bc00;
+    color: #ebffdd;
+}

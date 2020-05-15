@@ -1,0 +1,20 @@
+{
+    "name":"Weather: It's a beautiful Southeastern Idaho day!",
+    "short_name":"Peaks Weather",
+    "description": "Weather information for Sherman/Paris Peaks area.",
+    "icons":[
+        {
+            "src":"images/android-chrome-192x192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"images/android-chrome-512x512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ],
+    "start_url": "/",
+    "theme_color":"#0083c6",
+    "background_color":"#82bc00",
+    "display":"standalone"}
