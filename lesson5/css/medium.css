@@ -51,6 +51,7 @@
   }
 
   .map {
+    clear: both;
     display: grid;
     width: 250px;
     margin: 40px;
