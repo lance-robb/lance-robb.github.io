@@ -1,0 +1,65 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 37.5em) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pageTitle {
+    padding-left: 15px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  #motto {
+    font-size: 1.8rem;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+    white-space: nowrap;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .forecast {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    max-width: 500px;
+  }
+
+  .article picture {
+    float: right;
+    max-width: 420px;
+    margin: 0 0 5px 15px;
+  }
+
+  .weatherSummary {
+    font-size: .8em;
+  }
+
+  .map {
+    display: grid;
+    width: 250px;
+    margin: 40px;
+    grid-column: 1;
+  }
+  section.contact {
+    grid-column: 2;
+    align-self: center;
+    margin-left: 100px;
+  }
+
+}

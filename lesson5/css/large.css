@@ -1,0 +1,13 @@
+@media only screen and (min-width: 60em) 
+{
+   h1 {
+    font-size: 5rem;
+  }
+  #motto {
+    font-size: 2.3rem;
+}
+.weatherSummary {
+  font-size: 1em;
+}
+
+}
