@@ -34,10 +34,25 @@
   }
 
   .forecast {
+    font-size: 1.3em;
     display: block;
     margin: auto;
     margin-top: 25px;
-    max-width: 500px;
+    /*max-width: 500px;*/
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  th {
+    box-shadow: 0 0 11px 4px #82bc00 inset;
+  }
+
+  td {
+    border: 2px solid #0083c6;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px #023e58 inset;
   }
 
   .article picture {
