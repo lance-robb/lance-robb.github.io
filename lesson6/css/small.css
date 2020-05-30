@@ -159,6 +159,10 @@ img {
     text-align: justify;
 }
 
+iframe {
+   width: 250px;
+}
+
 footer {
     text-align: center;
     font-size: 1.3em;

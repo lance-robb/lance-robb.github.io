@@ -65,17 +65,8 @@
     font-size: .8em;
   }
 
-  .map {
-    clear: both;
-    display: grid;
-    width: 250px;
-    margin: 40px;
-    grid-column: 1;
-  }
-  section.contact {
-    grid-column: 2;
-    align-self: center;
-    margin-left: 100px;
-  }
+  iframe {
+   width: 325px;
+}
 
 }
