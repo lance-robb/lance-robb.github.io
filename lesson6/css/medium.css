@@ -19,17 +19,17 @@
     font-size: 1.8rem;
   }
 
-  .navigation {
+  #navigation {
     display: flex;
   }
 
-  .navigation li {
+  #navigation li {
     display: block;
     flex: 1 1 100%;
     white-space: nowrap;
   }
 
-  .navigation li:first-child {
+  #menu {
     display: none;
   }
 
