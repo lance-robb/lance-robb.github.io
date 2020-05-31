@@ -10,15 +10,11 @@
   font-size: 1em;
 }
 
-iframe {
-  width: 400px;
-}
-
 .map {
   clear: both;
   display: grid;
-  width: 250px;
-  margin: 40px;
+  /*width: 250px;
+  margin: 40px;*/
   grid-column: 1;
 }
 section.contact {

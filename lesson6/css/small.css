@@ -159,8 +159,8 @@ img {
     text-align: justify;
 }
 
-iframe {
-   width: 250px;
+#map {
+    display: none;
 }
 
 footer {

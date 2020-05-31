@@ -65,8 +65,12 @@
     font-size: .8em;
   }
 
+  #map {
+    display: inline-grid;
+  }
+
   iframe {
-   width: 325px;
+   width: 450px;
 }
 
 }
