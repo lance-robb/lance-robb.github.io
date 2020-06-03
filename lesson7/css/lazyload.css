@@ -1,12 +1,14 @@
 h1 {
+    width: 70%;
     text-align: center;
     letter-spacing: 2px;
     position: relative;
     text-shadow: 6px 3px 2px rgba(255, 198, 0, .5);
-    border-top: 5px solid #ffc600;
-    border-bottom: 5px solid #ffc600;
+    border-top: 5px ridge #ffc600;
+    border-bottom: 5px ridge #ffc600;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 20px auto;
 }
 
 .grid-container {
