@@ -1,0 +1,153 @@
+body {
+    font-family: 'Acme', sans-serif;
+    display: block;
+    text-align: center;
+    background-color: #ebffdd;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    border: 15px solid #82bc00;
+    border-radius: 100px;
+    background-color: #ebffdd;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    max-width: 98%;
+    margin-bottom: -5px;
+}
+
+#motto {
+    letter-spacing: 1.5pt;  
+  }
+
+header,
+footer {
+    color: #ebffdd;
+    background-color: #0083c6;
+}
+
+nav {
+    background-color: #023e58;
+    margin: -19px auto;  
+}
+
+#menu {
+    display: block;
+    color: #82bc00;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Fjalla One", sans-serif;
+    background-color: #023e58;
+    margin: -19px auto;
+    border: none;
+    width: 100%;
+}
+
+#menu:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #82bc00;
+    /*text-align: center;*/
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Fjalla One", sans-serif;
+}
+
+ul {  
+    padding: 0;
+}
+
+.active {
+    background-color: #0083c6;
+    color: #ebffdd;
+    border: 2px solid #82bc00;
+    padding: .5em;
+}
+
+nav a:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+.gridBox {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    max-width: 1050px;
+    margin: 1rem auto;
+}
+
+#galTitle {
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 2em;
+    padding: 6px 0;
+    border-radius: 85px/16px;
+    margin: 45px 3% 0;
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    border: 11px ridge #82bc00;
+    width: 100%;
+}
+
+figcaption{
+    color: #023e58;
+    background-color: #82bc00;
+    width: 65%;
+    margin: 5px auto 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+    border-top: 3px solid #023e58;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ebffdd;
+}
+
+footer a:hover {
+    background-color: #82bc00;
+    color: #ebffdd;
+}
+
+.icon {
+    width: 35px;
+}

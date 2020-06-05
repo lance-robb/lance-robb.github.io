@@ -1,0 +1,40 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 37.5em) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pageTitle {
+    padding-left: 15px;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  #motto {
+    font-size: 1.8rem;
+  }
+
+  #navigation {
+    display: flex;
+  }
+
+  #navigation li {
+    display: block;
+    flex: 1 1 100%;
+    white-space: nowrap;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .gridBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
