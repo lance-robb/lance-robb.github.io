@@ -120,10 +120,11 @@ figure img[data-src] {
 }
 
 figure img {
+    box-sizing: border-box;
     filter: blur(0em);
     transition: filter 0.5s;
     border: 11px ridge #82bc00;
-    width: 93.5%;
+    width: 100%;
 }
 
 figcaption{
