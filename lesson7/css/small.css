@@ -102,6 +102,10 @@ nav a:hover {
     margin: 1rem auto;
 }
 
+.squares {
+    margin: 16px 10px;
+}
+
 #galTitle {
     background-color: #0083c6;
     color: #ebffdd;
@@ -119,7 +123,7 @@ figure img {
     filter: blur(0em);
     transition: filter 0.5s;
     border: 11px ridge #82bc00;
-    width: 100%;
+    width: 93.5%;
 }
 
 figcaption{
