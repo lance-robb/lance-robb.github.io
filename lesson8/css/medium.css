@@ -38,4 +38,8 @@
     width: 75%;
   }
 
+  .info, h4, p {
+    font-size: 1.25em;
+  }
+
 }
