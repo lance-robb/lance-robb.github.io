@@ -6,34 +6,9 @@
   #motto {
     font-size: 2.3rem;
 }
-.weatherSummary {
-  font-size: 1em;
-}
-
-.map {
-  clear: both;
-  display: grid;
-  /*width: 250px;
-  margin: 40px;*/
-  grid-column: 1;
-}
-section.contact {
-  grid-column: 2;
-  align-self: center;
-  margin-left: 100px;
-}
 
 figure:hover {
   box-shadow: 0 4px 18px 0 #0083c6, 0 16px 20px 0 #0083c6;  ;
-}
-
-#galTitle {
-  max-width: 1000px;
-  margin: 45px auto 0;
-}
-
-.gridBox {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 }

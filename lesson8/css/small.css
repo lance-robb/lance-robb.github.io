@@ -127,6 +127,11 @@ form textarea {
     border: 2px solid #023e58;
     border-radius: 6px;
     width: 96%;
+    max-width: 750px;
+}
+
+h4, p {
+    color:#023e58;;
 }
 
 .report {
