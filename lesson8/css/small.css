@@ -159,11 +159,11 @@ h4, p {
 }
 
 input:required {
-    color:  #f32a06;
+    border-bottom: 1.5px dashed  #f32a06;
 }
 
 input:required:valid {
-    color:  #82bc00 ;
+    border: 2px solid #82bc00 ;
 }
 
 #thanks {

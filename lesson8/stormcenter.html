@@ -46,8 +46,11 @@
                 <legend>Personal Information</legend>
                 <label class="info">Full Name * <input type="text" name="fullName" pattern="[a-zA-Z \.\-]{5,}"
                         placeholder="John Doe Deere" required></label>
-                <label class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" placeholder="youraddress@email.com"></label>
-                <label class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone *&nbsp;<input type="tel" name="phone" required></label>
+                <label
+                    class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;<input
+                        type="email" name="email" placeholder="youraddress@email.com"></label>
+                <label class="info">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone *&nbsp;<input type="tel" name="phone"
+                        required></label>
                 <label class="info">Zip Code * <input type="number" name="zipcode" required></label>
             </fieldset>
 
@@ -66,8 +69,8 @@
                     </datalist>
                 </label>
 
-                <label class="info">Storm Severity (1 to 10)&nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="3" min="1"
-                        max="10" step="1" list="severe">
+                <label class="info">Storm Severity (1 to 10)&nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="3"
+                        min="1" max="10" step="1" list="severe">
                 </label>
 
                 <datalist id="severe">
@@ -100,7 +103,8 @@
                 <label class="info"><input type="radio" name="viewer" value="no"> No</label>
                 <label class="info"><input type="radio" name="viewer" value="maybe"> Maybe</label>
                 <h4>Please enter any additional information:</h4>
-                <label class="info"><textarea name="comments" id="comments" cols="40" rows="6"></textarea></label>
+                <label class="info" for="comments">
+                    <textarea title="comments" id="comments" cols="40" rows="6"></textarea></label>
                 <p>* = required information</p>
             </fieldset>
 
