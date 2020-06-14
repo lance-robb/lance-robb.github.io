@@ -1,0 +1,201 @@
+body {
+    font-family: 'Acme', sans-serif;
+    display: block;
+    text-align: center;
+    background-color: #ebffdd;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    border: 15px solid #82bc00;
+    border-radius: 100px;
+    background-color: #ebffdd;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.pageTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    max-width: 98%;
+    margin-bottom: -5px;
+}
+
+#motto {
+    letter-spacing: 1.5pt;
+}
+
+header,
+footer {
+    color: #ebffdd;
+    background-color: #0083c6;
+}
+
+nav {
+    background-color: #023e58;
+    margin: -19px auto;
+}
+
+#menu {
+    display: block;
+    color: #82bc00;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Fjalla One", sans-serif;
+    background-color: #023e58;
+    margin: -19px auto;
+    border: none;
+    width: 100%;
+}
+
+#menu:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+.hide {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #82bc00;
+    /*text-align: center;*/
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: "Fjalla One", sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+.active {
+    background-color: #0083c6;
+    color: #ebffdd;
+    border: 2px solid #82bc00;
+    padding: .5em;
+}
+
+nav a:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+h2 {
+    margin: 80px 3% 40px;
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 2em;
+    padding: 6px 0;
+    border-radius: 85px/16px;
+}
+
+form fieldset {
+    margin: 2rem 2.5rem;
+    border: 1px solid #023e58;
+    border-radius: 10px;
+}
+
+form legend {
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 1em;
+    padding: 6px 18px;
+    border-radius: 28px/8px;
+}
+
+form label.info {
+    display: block;
+    padding: .6rem 0;
+    color: #023e58;
+}
+
+form textarea {
+    font-family: "Open Sans", sans-serif;
+    color: #0343A2;
+    background-color: paleturquoise;
+    border: solid 2px navy;
+    border-radius: 6px;
+}
+
+.report {
+    border: none;
+    background-color: #023e58;
+    color: #82bc00;
+    font-size: 1.5em;
+    border-radius: 28px/8px;
+    padding: .75rem 1.5rem;
+    margin: 5px auto 40px;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.report:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+input:required {
+    color:  #f32a06;
+}
+
+input:required:valid {
+    color:  #82bc00 ;
+}
+
+textarea {
+    max-width: 95%;
+}
+
+/*Storm thanks
+h2.thanks {
+    text-align: center;
+}
+
+p#thanks {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    margin: 25px 100px;
+    color: #0343A2;
+
+}
+
+#thanks {
+    font-family: "Crete Round";
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+*/
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+    border-top: 3px solid #023e58;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ebffdd;
+}
+
+footer a:hover {
+    background-color: #82bc00;
+    color: #ebffdd;
+}
+
+.icon {
+    width: 35px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Peaks Weather - Gallery</title>
+    <meta name="description" content="Image gallery for our Peaks Weather Site.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round&family=Fjalla+One&display=swap">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="images/icon512.png" alt="Peaks Weather Site Logo">
+        </figure>
+        <section class="pageTitle">
+            <h1 id="title">Peaks Weather</h1>
+            <h2 id="motto">Another beautiful day in Southeastern Idaho!</h2>
+        </section>
+    </header>
+    <nav>
+        <button id="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Report</h2>
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="info">Full Name * <input type="text" name="fullName" pattern="[a-zA-Z \.\-]{5,}"
+                        placeholder="John Doe Deere" required></label>
+                <label class="info">Email&nbsp;&nbsp;&nbsp;<input type="email" name="email" placeholder="youraddress@email.com"></label>
+                <label class="info">Phone * <input type="tel" name="phone" required></label>
+                <label class="info">Zip Code * <input type="number" name="zipcode" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Details</legend>
+                <label class="info">Storm Date <input type="date" name="stormDate"></label>
+                <label class="info">Type of Storm
+                    <input list="stormtype" id="storm">
+                    <datalist id="stormtype">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                        <option value="Blizzard"></option>
+                    </datalist>
+                </label>
+
+                <label class="info">Storm Severity (1 to 10)&nbsp;&nbsp;&nbsp;<input type="range" id="rating" value="3" min="1"
+                        max="10" step="1" list="severe">
+                </label>
+
+                <datalist id="severe">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+
+                <label class="info">Storm Region
+                    <select name="region">
+                        <option value="select" selected disabled>Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="springs">Soda Springs</option>
+                        <option value="fish">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <h4>Are you in danger?</h4>
+                <label class="info"><input type="radio" name="viewer" value="yes"> Yes</label>
+                <label class="info"><input type="radio" name="viewer" value="no"> No</label>
+                <label class="info"><input type="radio" name="viewer" value="maybe"> Maybe</label>
+                <h4>Please enter any additional information:</h4>
+                <label class="info"><textarea name="comments" id="comments" cols="40" rows="6"></textarea></label>
+                <p>* = required information</p>
+            </fieldset>
+
+            <input type="submit" value="Report Storm" class="report">
+
+        </form>
+    </main>
+    <footer>
+        &copy; 2020 | <a href="https://lance-robb.github.io/">Lance Robb</a> | Utah | <a
+            href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <div id="date"></div>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/whatDay.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Acme', 'Crete Round', 'Fjalla One']
+            }
+        });
+    </script>
+</body>
+
+</html>
