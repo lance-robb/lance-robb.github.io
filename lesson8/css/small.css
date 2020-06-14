@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 h2 {
-    margin: 80px 3% 40px;
+    margin: 70px 3% 40px;
     background-color: #0083c6;
     color: #ebffdd;
     font-size: 2em;
@@ -103,8 +103,8 @@ h2 {
 }
 
 form fieldset {
-    margin: 2rem 2.5rem;
-    border: 1px solid #023e58;
+    margin: 2rem auto;
+    border: 2.5px solid #023e58;
     border-radius: 10px;
 }
 
@@ -123,11 +123,10 @@ form label.info {
 }
 
 form textarea {
-    font-family: "Open Sans", sans-serif;
     color: #0343A2;
-    background-color: paleturquoise;
-    border: solid 2px navy;
+    border: 2px solid #023e58;
     border-radius: 6px;
+    width: 96%;
 }
 
 .report {
@@ -155,30 +154,14 @@ input:required:valid {
     color:  #82bc00 ;
 }
 
-textarea {
-    max-width: 95%;
-}
-
-/*Storm thanks
-h2.thanks {
-    text-align: center;
-}
-
-p#thanks {
-    font-size: 25px;
-    font-family: "Open Sans", sans-serif;
-    margin: 25px 100px;
-    color: #0343A2;
-
-}
-
 #thanks {
     font-family: "Crete Round";
     font-size: 1.5rem;
-    width: 50%;
+    width: 75%;
     margin: 0 auto 50px;
+    color: #023e58;
 }
-*/
+
 footer {
     text-align: center;
     font-size: 1.3em;
