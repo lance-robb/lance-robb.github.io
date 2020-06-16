@@ -1,0 +1,18 @@
+@media only screen and (min-width: 60em) 
+{
+   h1 {
+    font-size: 5rem;
+  }
+  #motto {
+    font-size: 2.3rem;
+}
+
+figure:hover {
+  box-shadow: 0 4px 18px 0 #0083c6, 0 16px 20px 0 #0083c6;  ;
+}
+
+.info, h4, p {
+  font-size: 1.5em;
+}
+
+}
