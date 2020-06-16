@@ -1,0 +1,59 @@
+header {
+    text-align: center;
+    color: #081145;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    text-shadow:2px 2px gold;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 2px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 1rem;
+    font-family: 'Bitter', serif;
+    border: 10px solid #daa520;
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px 1px gold;
+    background-color: gold;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #081145;
+    border-radius: 0.5em;
+    line-height: 0.5px;
+    color: #daa520;
+}
+
+h2, img, p {
+    align-self: center;
+}
+
+h2 {
+    margin: 1.5rem;
+}
+
+img {
+    max-width: 65%;
+    border: 1.5px solid #daa520;
+    border-radius: 5px;
+    margin: 1rem 0px 2rem;
+}
+
+/* medium size query*/
+@media only screen and (min-width: 30rem) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*Lg media query*/
+@media only screen and (min-width: 60rem) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
