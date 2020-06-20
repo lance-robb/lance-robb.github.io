@@ -34,7 +34,6 @@ fetch(requestURL)
             place.appendChild(year);
             place.appendChild(population);
             place.appendChild(rainfall);
-            //image.appendChild(alt);
             place.appendChild(image);
             
             document.querySelector('div.place').appendChild(place);
