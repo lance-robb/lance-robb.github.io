@@ -22,18 +22,19 @@ fetch(requestURL)
             city.textContent = towndata.name;
             alt.setAttribute('alt', towndata.name);
             image.setAttribute('src', `images/${towndata.photo}`);
+            image.setAttribute('alt', `Photo of ${towndata.name}`);
             motto.innerHTML = towndata.motto;
             year.innerHTML = "Founded: " + towndata.yearFounded;
             population.textContent = "Population: " + towndata.currentPopulation;
             rainfall.innerHTML = "Average Annual Rainfall: " + towndata.averageRainfall;
             place.setAttribute('class', "city");
-
+            
             place.appendChild(city);
             place.appendChild(motto);
             place.appendChild(year);
             place.appendChild(population);
             place.appendChild(rainfall);
-            place.appendChild(alt);
+            //image.appendChild(alt);
             place.appendChild(image);
             
             document.querySelector('div.place').appendChild(place);
