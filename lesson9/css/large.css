@@ -1,18 +1,45 @@
-@media only screen and (min-width: 60em) 
-{
-   h1 {
+@media only screen and (min-width: 60em) {
+  h1 {
     font-size: 5rem;
   }
+
   #motto {
     font-size: 2.3rem;
-}
+  }
 
-figure:hover {
-  box-shadow: 0 4px 18px 0 #0083c6, 0 16px 20px 0 #0083c6;  ;
-}
+  figure:hover {
+    box-shadow: 0 4px 18px 0 #0083c6, 0 16px 20px 0 #0083c6;
+    ;
+  }
 
-.info, h4, p {
-  font-size: 1.5em;
-}
+  .info,
+  h4,
+  p {
+    font-size: 1.5em;
+  }
+
+  .place {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .city {
+    display: block;
+  }
+
+  .city:nth-child(odd) img {
+    margin: 10px auto;
+  }
+
+  .city:nth-child(even) img {
+    margin: 10px auto;
+  }
+
+  .city p {
+    margin: 15px;
+  }
+
+  .city h4 {
+    margin-right: 0;
+  }
 
 }

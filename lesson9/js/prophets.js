@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
    
 
 const prophets = jsonObject['prophets'];
@@ -32,3 +31,13 @@ for (let i = 0; i < prophets.length; i++) {
 } 
 
 });
+
+/*
+prophets.forEach(prophet => {
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
+})
+h2.textContent = `${prophets.name} ${prophets.lastname}`
+p.innerHTML = `${towns.name}`*/

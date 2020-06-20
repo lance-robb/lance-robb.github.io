@@ -5,17 +5,23 @@ body {
     background-color: #ebffdd;
 }
 
+#banner {
+    display: none;
+    font-size: 1.5em;
+    padding: .7em;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
 .logo {
     max-width: 250px;
     height: auto;
     border: 15px solid #82bc00;
     border-radius: 100px;
     background-color: #ebffdd;
-}
-
-header {
-    padding-top: 10px;
-    padding-bottom: 6px;
 }
 
 .pageTitle {
@@ -78,6 +84,7 @@ nav ul li a {
 
 ul {
     padding: 0;
+    list-style: none;
 }
 
 .active {
@@ -101,6 +108,60 @@ h2 {
     border-radius: 85px/16px;
 }
 
+h3 {
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 1.3em;
+    padding: 3px 0;
+    border-radius: 40px/8px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+h4 {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 25px 40px;
+}
+
+#storyBanner {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    max-height: 325px;
+    border-radius: 18%/15%;
+    box-shadow: 10px 8px 6px #023e58;
+}
+
+.place {
+    display: grid;
+    grid-gap: 30px;
+    margin: 2rem auto;
+    }
+
+.city {
+    margin: 0 auto;
+    width: 90%;
+    background-color:#82bc00;
+    border-radius: 2rem;
+    box-shadow: -10px 12px 5px #023e58;
+}
+
+.city img {
+    width: 85%;
+    border-radius: 28px 0px 28px 0px;
+    box-shadow: -5px 8px 5px #023e58;
+}
+
+.city ul {
+    line-height: 1.7rem;
+}
+
+/*
 form {
     margin: 0 50px;
 }
@@ -131,10 +192,6 @@ form textarea {
     border-radius: 6px;
     width: 96%;
     max-width: 750px;
-}
-
-h4, p {
-    color:#023e58;;
 }
 
 .info, h4, p {
@@ -173,7 +230,7 @@ input:required:valid {
     margin: 0 auto 50px;
     color: #023e58;
 }
-
+*/
 footer {
     text-align: center;
     font-size: 1.3em;
@@ -191,6 +248,13 @@ footer a:hover {
     color: #ebffdd;
 }
 
+footer p {
+font-size: 1.1em;
+margin: 10px auto;
+border-bottom: 2px dashed #ebffdd;
+}
+
+/*
 .icon {
     width: 35px;
-}
+}*/
