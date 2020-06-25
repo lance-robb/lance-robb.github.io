@@ -52,14 +52,30 @@
   }
 
   td {
-    border: 2px solid #0083c6;
+    /*border: 2px solid #0083c6;
+    box-shadow: 0 0 30px 2px #023e58 inset;*/
     padding: 15px;
-    box-shadow: 0 0 30px 2px #023e58 inset;
     background: radial-gradient(#82bc00, #023e58);
   }
 
   td img {
     width: 88px;
+  }
+
+  th#weekday1 {
+    border-top-left-radius: 15px;
+  }
+
+  th#weekday5 {
+    border-top-right-radius: 15px;
+  }
+
+  td#day1 {
+    border-bottom-left-radius: 15px;
+  }
+
+  td#day5 {
+    border-bottom-right-radius: 15px;
   }
 
   .article picture {
