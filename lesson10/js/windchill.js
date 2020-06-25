@@ -30,7 +30,7 @@ fetch(forecastURL)
         });
 
         for (let i = 0; i < peaksforecast.length; i++) {
-            const imagesrc = 'https://openweathermap.org/img/wn/' + peaksforecast[i].weather[0].icon + '.png';
+            const imagesrc = 'https://openweathermap.org/img/w/' + peaksforecast[i].weather[0].icon + '.png';
             const desc = peaksforecast[i].weather[0].description;
             document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
