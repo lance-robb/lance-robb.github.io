@@ -1,0 +1,58 @@
+@media only screen and (min-width: 60em) {
+   h1 {
+    font-size: 5rem;
+  }
+
+figure:hover {
+  box-shadow: 0 4px 18px 0 #0083c6, 0 16px 20px 0 #0083c6;
+  ;
+}
+
+.info,
+h4,
+p {
+  font-size: 1.5em;
+}
+
+.place {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.city {
+  display: block;
+}
+
+.city:nth-child(odd) a {
+  margin: 10px auto;
+}
+
+.city:nth-child(even) a {
+  margin: 10px auto;
+}
+
+.city p {
+  margin: 15px;
+}
+
+.city h4 {
+  margin-right: 0;
+}
+
+.weatherSummary {
+  font-size: 1em;
+}
+
+.map {
+  clear: both;
+  display: grid;
+  /*width: 250px;
+  margin: 40px;*/
+  grid-column: 1;
+}
+
+section.contact {
+  grid-column: 2;
+  align-self: center;
+  margin-left: 100px;
+}
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Peaks Weather - Home</title>
+    <meta name="description" content="Peaks Weather Home Page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round&family=Fjalla+One&display=swap">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+</head>
+
+<body>
+    <aside id="banner">&laquo;|Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.|&raquo;</aside>
+    <header>
+        <figure>
+            <a href="#"><img class="logo" src="images/icon512.png" alt="Peaks Weather Site Logo"></a>
+        </figure>
+        <section class="pageTitle">
+            <h1 id="title">Peaks Weather</h1>
+            <h2 id="motto">Another beautiful day in Southeastern Idaho!</h2>
+        </section>            
+    </header>
+    <nav>
+        <button id="menu" onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="/lesson11/preston.html">Preston</a></li>
+            <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h2>Today's Weather Story for the 'Peaks' Area</h2>
+            <img id="storyBanner" src="images/rainbowHeader.jpg" alt="Double Rainbow">
+            <p id="story">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eum, veniam? Excepturi laudantium iure non officiis asperiores
+                ipsam, nulla totam placeat officia nam reiciendis ea voluptas aut
+                quisquam, consequatur nesciunt id eum explicabo dolor ipsa. Error necessitatibus
+                maiores asperiores eligendi placeat vitae distinctio tempore libero velit numquam,
+                laborum exercitationem aliquid quidem ducimus eveniet consequuntur laudantium accusamus
+                reprehenderit odio a est aut recusandae voluptatem? Optio accusamus debitis sint nobis.
+                Vitae odio deserunt accusantium iste. Accusantium quis maxime iure. Recusandae illo hic
+                esse maiores, exercitationem voluptates in quam sint possimus cum illum error dicta vero
+                natus nihil accusantium consectetur nostrum sed veniam atque eius quas! Dolorum nulla eligendi
+                maxime sapiente, iusto iste aliquam amet? Reiciendis ipsam cum necessitatibus. Voluptatem facere,
+                voluptas animi, consectetur ipsam alias maxime earum culpa, expedita accusantium magnam ab
+                exercitationem repellat.
+                Assumenda maxime, recusandae nihil magnam architecto voluptate harum qui voluptatibus temporibus
+                nostrum, accusantium
+                fuga iusto quos animi doloribus reiciendis corporis expedita consequatur quod earum omnis commodi.
+                Obcaecati ea laboriosam
+                enim quod magni voluptatem.
+            </p>
+        </div>
+        <div class="place"></div>
+    </main>
+    <footer>
+        &copy; 2020 | <a href="https://lance-robb.github.io/">Lance Robb</a> | Utah | <a
+            href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <div id="date"></div>
+    </footer>
+    <script src="js/towns.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/whatDay.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Acme', 'Crete Round', 'Fjalla One']
+            }
+        });
+    </script>
+</body>
+
+</html>
