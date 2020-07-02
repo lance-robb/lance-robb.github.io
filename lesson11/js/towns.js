@@ -19,11 +19,11 @@ fetch(requestURL)
             let image = document.createElement('img');
             let alt = document.createElement('alt');
             let a = document.createElement('a');
-            let string = towndata.name.split(" ").join("").toLowerCase();
+            let string = towndata.name.split(" ").join("");
 
             city.textContent = towndata.name;
             alt.setAttribute('alt', towndata.name);
-            a.setAttribute('href', `/lesson11/${string}.html`)
+            a.setAttribute('href', `/lesson11/${string.toLowerCase()}.html`)
             image.setAttribute('src', `images/${towndata.photo}`);
             image.setAttribute('alt', `Photo of ${towndata.name}`);
             motto.innerHTML = towndata.motto;
