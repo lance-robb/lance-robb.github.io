@@ -165,7 +165,6 @@ p {
 .city ul {
     line-height: 1.7rem;
 }
-}
 
 img {
     max-width: 100%;
@@ -233,12 +232,13 @@ img {
 }
 
 #galTitle {
-    background-color: #0083c6;
-    color: #ebffdd;
+    /*background-color: #0083c6;
+    color: #ebffdd;*/
     font-size: 2em;
     padding: 6px 0;
     border-radius: 85px/16px;
     margin: 45px 3% 0;
+    width: 95%;
 }
 
 figure img[data-src] {
