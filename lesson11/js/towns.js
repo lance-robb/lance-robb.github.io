@@ -19,7 +19,7 @@ fetch(requestURL)
             let image = document.createElement('img');
             let alt = document.createElement('alt');
             let a = document.createElement('a');
-            let string = towndata.name.split(" ").join("").toLowerCase;
+            let string = towndata.name.split(" ").join("").toLowerCase();
 
             city.textContent = towndata.name;
             alt.setAttribute('alt', towndata.name);
