@@ -38,10 +38,6 @@ p {
   margin-right: 0;
 }
 
-.weatherSummary {
-  font-size: 1em;
-}
-
 .map {
   clear: both;
   display: grid;

@@ -262,6 +262,79 @@ figcaption{
     border-radius: 5px;
 }
 
+form {
+    margin: 0 50px;
+}
+
+form fieldset {
+    margin: 2rem auto;
+    border: 2.5px solid #023e58;
+    border-radius: 10px;
+}
+
+form legend {
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 1em;
+    padding: 6px 18px;
+    border-radius: 28px/8px;
+}
+
+form label.info {
+    display: block;
+    padding: .6rem 0;
+    color: #023e58;
+}
+
+form textarea {
+    color: #0343A2;
+    border: 2px solid #023e58;
+    border-radius: 6px;
+    width: 96%;
+    max-width: 750px;
+}
+
+fieldset h4, p {
+    color:#023e58;;
+}
+
+.info, h4, p {
+    font-size: 1em;
+}
+
+.report {
+    border: none;
+    background-color: #023e58;
+    color: #82bc00;
+    font-size: 1.5em;
+    border-radius: 28px/8px;
+    padding: .75rem 1.5rem;
+    margin: 5px auto 40px;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.report:hover {
+    background-color: #82bc00;
+    color: #023e58;
+}
+
+input:required {
+    border-bottom: 1.5px dashed  #f32a06;
+}
+
+input:required:valid {
+    border: 2px solid #82bc00 ;
+}
+
+#thanks {
+    font-family: "Crete Round";
+    font-size: 1.5rem;
+    width: 75%;
+    margin: 0 auto 50px;
+    color: #023e58;
+}
+
 footer {
     text-align: center;
     font-size: 1.3em;

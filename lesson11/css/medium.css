@@ -11,6 +11,10 @@
     padding-left: 15px;
   }
 
+  .logo {
+    margin-left: 35px;
+  }
+
   h1 {
     font-size: 3.5em;
   }
@@ -32,7 +36,7 @@
   .gridBox {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .city {
     display: grid;
     grid-template-columns: 1fr 1fr;
