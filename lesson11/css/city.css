@@ -114,6 +114,15 @@ img {
     max-width: 100%;
 }
 
+.idaho {
+    margin: 20px auto;
+    background-color:#82bc00;
+    border-radius: 2rem;
+    box-shadow: -5px 8px 5px #023e58;
+    padding: .1em;
+    max-width: 10.5em;
+}
+
 .herodiv {
     position: relative;
     font-family: "Crete Round", sans-serif;
