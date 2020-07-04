@@ -150,6 +150,30 @@ img {
     display: none;
 }
 
+.place {
+    padding: 1px;
+    margin: 30px auto;
+    width: 60%;
+    background-color:#82bc00;
+    border-radius: 2rem;
+    box-shadow: -10px 12px 5px #023e58;
+}
+
+.place h4 {
+    background-color: #0083c6;
+    color: #ebffdd;
+    font-size: 1.2em;
+    padding: 3px 1em;
+    border-radius: 40px/8px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.place li {
+    padding: 8px;
+    list-style: none;
+}
+
 .article p {
     margin-top: 40px;
     font-family: "Crete Round, serif";

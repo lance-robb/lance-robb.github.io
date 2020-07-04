@@ -36,4 +36,35 @@ fetch(forecastURL)
             document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
             document.getElementById(`day${i+1}`).innerHTML = `${Math.round(peaksforecast[i].main.temp)}&#8457`;
         }
+
+        const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+
+        fetch(requestURL)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (jsonObject) {
+
+
+                const towndata = jsonObject['towns'];
+                const idahoTown = towndata.filter(towndata => (towndata.name == 'Soda Springs'));
+                idahoTown.forEach(towndata => {
+                    let place = document.createElement('section');
+                    let title = document.createElement('h4');
+
+                    title.textContent = "Upcoming Events";
+                    
+                    place.appendChild(title);
+                   
+                    document.querySelector('div.place').appendChild(place);
+
+                    let eventList = document.createElement('ul');
+                    towndata.events.forEach(event => {
+                        let listItem = document.createElement('li');
+                        listItem.textContent = event;
+                        eventList.appendChild(listItem);
+                    });
+                    place.appendChild(eventList);
+                });
+            });
     });
