@@ -23,7 +23,7 @@ fetch(requestURL)
 
             city.textContent = towndata.name;
             alt.setAttribute('alt', towndata.name);
-            a.setAttribute('href', `/lesson11/${string.toLowerCase()}.html`)
+            a.setAttribute('href', `/lesson11/${string.toLowerCase()}.html`);
             image.setAttribute('src', `images/${towndata.photo}`);
             image.setAttribute('alt', `Photo of ${towndata.name}`);
             motto.innerHTML = towndata.motto;

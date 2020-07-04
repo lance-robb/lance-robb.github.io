@@ -13,3 +13,16 @@ if(day.getDay() == 5) {
 else {
     banner.style.display = "none";
 }
+
+/* Adding link to footer for weather data credit */
+
+let datadiv = document.createElement('div');
+let datalink = document.createElement('a');
+
+datadiv.setAttribute('class', "weatherdata")
+datalink.setAttribute('href', `https://openweathermap.org/`);
+datalink.innerHTML = "Weather Data Provided by Open Weather Map";
+
+datadiv.appendChild(datalink);
+
+document.querySelector('footer').appendChild(datadiv);
