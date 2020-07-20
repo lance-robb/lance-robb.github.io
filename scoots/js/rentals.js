@@ -1,4 +1,4 @@
-const datagrabURL = "/data/rentals.json";
+const datagrabURL = "data/rentals.json";
 fetch(datagrabURL)
     .then((response) => response.json())
     .then((jsonObject) => {
