@@ -240,7 +240,7 @@ td {
 .legal {
     border: 25px solid transparent;
     padding: 15px;
-    border-image: url(https://github.com/lance-robb/lance-robb.github.io/scoots/images/borderpattern.webp) 30 round;
+    border-image: url("images/borderpattern.webp") 30 round;
     background-color: #0bc5f421;
     margin: 1em auto;
 }
