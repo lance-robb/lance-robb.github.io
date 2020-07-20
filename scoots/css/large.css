@@ -1,0 +1,55 @@
+@media only screen and (min-width: 65rem) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #slogan {
+        font-size: 1.6rem;
+    }
+
+    .weather {
+        margin: 1rem auto;
+    }
+
+    .deals h2 {
+        font-size: 3rem;
+    }
+
+    .pics1 {
+        display: inline-flex;
+        max-width: 40%;
+        margin: 1rem;
+    }
+
+    .pics2 {
+        display: inline-flex;
+        max-width: 45%;
+        margin: 1rem;
+    }
+
+    iframe {
+        width: 500px;
+    }
+
+    .info {
+        font-size: 1.3em;
+    }
+
+    .social-media img {
+        width: 55px;
+    }
+
+    #pricetable {
+        font-size: 1.2em;
+    }
+
+    .contactform ul li {
+        font-size: 1.5em;
+    }
+
+    .comment-area {
+        max-width: 300px;
+      }
+
+}

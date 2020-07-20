@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>~Scoots Rentals</title>
+    <meta name="description" content="~SCOOTS Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/scoots.css">
+    <link rel="stylesheet" href="/css/medium.css">
+    <link rel="stylesheet" href="/css/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img src="images/scootsLogo.webp" alt="company logo">
+
+            <section class="heading">
+                <h1>~Scoots Rentals</h1>
+                <div id="slogan">Scoot in for your best island adventure!</div>
+            </section>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rentals.html">Rentals</a></li>
+                    <li class="active"><a href="reservations.html">Reservations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="legal">
+            <h2>~Scoots Rental Agreement</h2>
+            <h3>~Scoots Rental Requirements:</h3>
+            <ul>
+                <li> A $50 security deposit is required to hold reservations.</li>
+                <li> A valid drivers license is required at time of rental.</li>
+                <li> No one under 12 years of age are allowed on scooters.</li>
+                <li> Fuel charge not included.</li>
+                <li> Unlimited mileage.</li>
+                <li> Liability insurance is free of charge.</li>
+                <li> Reservations rate requires 24 hour prior notification.</li>
+                <li> Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li> Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li> Rentals may be returned to either location.</li>
+            </ul>
+        </div>
+
+        <div class="formwrapper">
+            <form action="confirmation.html" class="form-area">
+                <div class="perinfo">
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full name*</label>
+                    <input type="text" id="fullname" required pattern="[a-zA-Z \.\-]{5,}" placeholder="Your Full Name">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="# ### ### ####" required>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" placeholder="youremail@mail.com" required>
+                    <label for="country">State / Country</label>
+                    <input type="text" id="country" required>
+                </div>
+
+                <div class="rental-choice">
+                    <legend>Choose Your Rental</legend>
+
+                    <label for="vehicle">Vehicle:</label>
+                    <input type="text" id="vehicle" list="rentallist" placeholder="click to select">
+                    <datalist id="rentallist">
+                        <option value="Honda Metro Scooter">
+                        <option value="Honda Dio Scooter">
+                        <option value="Honda PCX150 Scooter">
+                        <option value="Honda Pioneer ATV">
+                        <option value="Jeep Wrangler - 2 door">
+                        <option value="Jeep Wrangler - 4 door with a/c">
+                    </datalist>
+                </div>
+
+                <div class="rental-info">
+                    <legend>Rental Information</legend>
+
+                    <label for="rentaldate">Rental Dates</label>
+                    <input type="date" id="rentaldate">
+                    <label for="location">Pick Up Location:</label>
+                    <input type="text" id="location" list="locationlist" placeholder="click to select">
+                    <datalist id="locationlist">
+                        <option value="San Miguel de Cozumel">
+                        <option value="Terminal Puerta Maya">
+                    </datalist>
+                    <label for="pickup">Pick Up Time:</label>
+                    <input type="time" id="pickup">
+                    <label for="numdays">Rental Length:</label>
+                    <input type="text" id="numdays" list="length" placeholder="click to select">
+                    <datalist id="length">
+                        <option value="Half Day">
+                        <option value="1 Day">
+                        <option value="2 Day">
+                        <option value="3 Day">
+                        <option value="4 Day">
+                        <option value="5 Day">
+                        <option value="6 Day">
+                        <option value="Week">
+                    </datalist>
+
+                    <label for="location">Drop Off Location:</label>
+                    <input type="text" id="location" list="locationlist" placeholder="click to select">
+                    <datalist id="locationlist">
+                        <option value="Terminal Puerta Maya">
+                        <option value="Cozumel Ferry dock">
+                    </datalist>
+                    <label for="appt">Drop Off Time:</label>
+                    <input type="time" id="appt">
+
+                    <p>Request Drop off?</p>
+                    <label for="ansyes">Yes</label>
+                    <input type="radio" id="ansyes" value="yes">
+                    <label for="ansno">No</label>
+                    <input type="radio" id="ansno" value="no">
+                </div>
+
+                <div class="comment-area">
+                    <legend>Additional Info/Comments</legend>
+                    <p>If we can help you with a drop off request or helpful accomodations, please let us know the
+                        details.</p>
+                    <label for="comments"></label>
+                    <textarea id="comments" rows="10" cols="30"></textarea>
+                </div>
+
+                <button type="submit">Make Reservation</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li class="active"><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <p> &copy; 2020 | <a class="links" href="https://lance-robb.github.io/">Lance Robb</a> | <a class="links"
+                href="resources.html">Site Resources</a><br>
+            Page last updated: <span id="upDate"></span>
+        </p>
+
+    </footer>
+
+    <script src="js/scoots.js"></script>
+
+</body>
+
+</html>

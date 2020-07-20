@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>~Scoots Rentals</title>
+    <meta name="description" content="~SCOOTS Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/scoots.css">
+    <link rel="stylesheet" href="/css/medium.css">
+    <link rel="stylesheet" href="/css/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Montserrat+Alternates:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img src="images/scootsLogo.webp" alt="company logo">
+
+            <section class="heading">
+                <h1>~Scoots Rentals</h1>
+                <div id="slogan">Scoot in for your best island adventure!</div>
+            </section>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="rentals.html">Rentals</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="actioncall">
+            <h2>Rent with us for a <em>guaranteed</em> great ride on Cozumel.</h2>
+        </div>
+        <section class="deals">
+            <picture>
+                <source media="(max-width: 300px)" srcset="images/wideshotscooter300.webp">
+                <source media="(max-width: 700px)" srcset="images/wideshotscooter700.webp">
+                <source media="(max-width: 1000px)" srcset="images/wideshotscooter1000.webp">
+                <img src="images/wideshot scooter.webp" alt="Scooter on the beach">
+            </picture>
+            <h2>&#9759;Current Deals&#9759;</h2>
+            <ul>
+                <h3>Honda Motor Scooters</h3>
+                <li> Honda Metropolitan (49cc) - 1 person</li>
+                <li> Honda Dio (110cc) - 2 person</li>
+                <li> Honda PCX150 (149cc) - 2 person</li>
+                <img class="pics1" src="images/hondadiostand.webp" alt="Scooter at the beach">
+                <img class="pics2" src="images/scooteratbeach.webp" alt="Honda Dio on center stand">
+                <h3> ATV Side-by-Side</h3>
+                <li> Honda Pioneer 1000</li>
+                <img class="pics1" src="images/atvrow.webp" alt="A row of parked ATV's">
+                <img class="pics2" src="images/sunsetbeach.webp" alt="A beatuiful sunset on the beach">
+                <h3>Jeep Rentals</h3>
+                <li> 4-door Jeep Wrangler - manual with A/C - 5 people max</li>
+                <li> 2-door Jeep Wrangler - open air - manual - 4 people max </li>
+                <img class="pics1" src="images/jeepwithocean.webp" alt="A Jeep and the ocean">
+                <img class="pics2" src="images/jeepmenbeach.webp" alt="Two men sitting on top of a Jeep at the beach">
+            </ul>
+        </section>
+
+        <section class="weather">
+            <div class="weatherbox1">Currently : <img src="#" id="cwicon" alt=""><span id="temp"> </span></div>
+            <div class="weatherbox2">High : <span id="dayhigh"> </span></div>
+            <div class="weatherbox3" id="current"></div>
+            <div class="weatherbox4" id="humid">Humidity : </div>
+            <div class="weatherbox5"><span id="wind"> </span> mph</div>
+        </section>
+
+        <section>
+            <h3 class="forecast">&#9728; Forecast &#9729;</h3>
+            <div class="forecast">
+                <div class="flex-col">
+                    <span id="day1" class="day"></span>
+                    <img src="#" id="icon1" alt="sun">
+                    <span id="high1" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                    <span id="day2" class="day"></span>
+                    <img src="#" id="icon2" alt="sun">
+                    <span id="high2" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                    <span id="day3" class="day"></span>
+                    <img src="#" id="icon3" alt="sun">
+                    <span id="high3" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                    <span id="day4" class="day"></span>
+                    <img src="#" id="icon4" alt="sun">
+                    <span id="high4" class="temp"></span>
+                </div>
+                <div class="flex-col">
+                    <span id="day5" class="day"></span>
+                    <img src="#" id="icon5" alt="sun">
+                    <span id="high5" class="temp"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1s-seNNc8CGIMTA1zoKRHNpP4-2O7wANp" width="300"
+                    height="275"></iframe>
+            </div>
+
+            <div class="contact">
+                <p>&#x1F4CD;San Miguel de Cozumel</p>
+                <p>&</p>
+                <p>&#x1F4CD;Terminal Puerta Maya</p>
+                <p>Quintana Roo, Mexico</p>
+                <p>&#9742; 888.777.3333<br><br>
+                    &#9993; info@scoots.com
+                </p>
+            </div>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com">
+                    <img class="socialmedia" src="icons/facebook.png" alt="Facebook"></a>
+
+                <a href="https://www.twitter.com">
+                    <img class="socialmedia" src="icons/twitter.png" alt="Twitter"></a>
+
+                <a href="https://www.instagram.com">
+                    <img class="socialmedia" src="icons/instagram.png" alt="Instagram"></a>
+
+                <a href="https://www.youtube.com">
+                    <img class="socialmedia" src="icons/youtube.png" alt="Youtube"></a>
+
+                <a href="https://www.skype.com">
+                    <img class="socialmedia" src="icons/skype.png" alt="Skype"></a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <p> &copy; 2020 | <a class="links" href="https://lance-robb.github.io/">Lance Robb</a> | <a class="links"
+                href="resources.html">Site Resources</a><br>
+            Page last updated: <span id="upDate"></span>
+        </p>
+
+    </footer>
+
+    <script src="js/scoots.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/gallery.js"></script>
+
+</body>
+
+</html>

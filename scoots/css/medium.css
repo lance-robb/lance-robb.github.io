@@ -1,0 +1,174 @@
+@media only screen and (min-width: 36em) {
+
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-top: .3rem;
+  }
+
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo logo nav nav"
+      "logo logo heading heading";
+  }
+
+  .top img {
+    grid-area: logo;
+    width: 110%;
+  }
+
+  .heading {
+    grid-area: heading;
+    margin: 1.7em 0;
+  }
+
+  nav {
+    grid-area: nav;
+    margin: 0;
+    align-self: baseline;
+  }
+
+  .navigation {
+    display: flex;
+    font-size: .6em;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .pics1 {
+    display: block;
+    max-width: 65%;
+    margin: 1rem auto;
+  }
+
+  .weather {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "wicon high high wind wind"
+      "wicon condition condition humidity humidity";
+    margin: 1rem;
+    border-radius: 3rem 0 3rem;
+    align-items: center;
+  }
+
+  .weatherbox1 {
+    grid-area: wicon;
+    font-size: 1.4em;
+  }
+
+  .weatherbox2 {
+    grid-area: high;
+    font-size: 1.1em;
+    text-shadow: 1px 1px #ff0033;
+  }
+
+  .weatherbox3 {
+    grid-area: condition;
+    font-size: 1.1em;
+    padding: 1em;
+  }
+
+  .weatherbox4 {
+    grid-area: humidity;
+    font-size: 1.1em;
+  }
+
+  .weatherbox5 {
+    grid-area: wind;
+    font-size: 1.1em;
+    padding: 1em;
+  }
+
+  h3.forecast {
+    margin: 30px auto 25px;
+    justify-content: center;
+  }
+
+  .forecast {
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .day {
+    text-decoration: underline;
+    text-shadow: 1px 1px #ffcc00;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  figcaption {
+    font-size: 1.5em;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+  }
+
+  .social-media {
+    display: grid;
+  }
+
+  .social-media img {
+    width: 48px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  #pricetable {
+    font-size: 1em;
+    max-width: 1134px;
+    margin: 0 auto;
+  }
+
+  .contactform ul li {
+    font-size: 1.2em;
+  }
+
+  .form-area {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form-area>div {
+    padding: .2rem;
+  }
+
+  .comment-area {
+    max-width: 700px;
+  }
+
+  button {
+    flex: 0 0 100%;
+    max-height: 40px;
+  }
+
+}

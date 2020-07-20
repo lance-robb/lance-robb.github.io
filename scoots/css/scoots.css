@@ -1,0 +1,338 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffbff;
+    margin: 0 .6rem;
+}
+
+header {
+    color: #ff0033;
+    margin-top: 1rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top img {
+    width: 65%;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.5rem;
+    margin: 0px auto .2rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#slogan {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #00ccff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 100%;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+    color: #fffbff;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #ffcc00;
+}
+
+nav a:hover {
+    background-color: #ff0033e6;
+}
+
+#actioncall {
+    text-align: center;
+    background-color: #19180A;
+    color: #ffcc00;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+.gallery img {
+    width: 100%;
+    border: 3px groove #ff0033;
+    border-radius: 1rem 0 1rem 0;
+}
+
+.deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffcc00;
+    padding: 1rem;
+}
+
+.deals img,
+#heroimage {
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px groove #ff0033;
+    border-radius: 1rem 0 1rem 0;
+}
+
+.deals ul {
+    list-style-type: none;
+}
+
+.deals h2 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0px;
+    padding: .5rem 0 0 0;
+    text-shadow: 1px 1px #ff0033;
+}
+
+.pics1,
+.pics2 {
+    display: none;
+}
+
+.weather {
+    max-width: 90%;
+    margin: 1rem 3rem;
+    padding: 1.5rem;
+    color: #19180A;
+    text-align: center;
+    background-color: #00CCFF;
+    border: 1px solid #ff0033;
+    box-shadow: 0 10px 25px #ffcc00;
+    border-radius: 1rem 0 1rem 0;
+}
+
+.weatherbox {
+    padding: 5px;
+}
+
+.weather img {
+    margin: -5px 0 -30px;
+    width: 125px;
+}
+
+#temp {
+    font-size: 3rem;
+    color: #ffcc00;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.forecast {
+    display: none;
+}
+
+figcaption {
+    text-align: center;
+    padding: .5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #19180A;
+    background-color: #fffbff;
+    border-radius: 0 1rem 0 1rem;
+    font-weight: 600;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    background-color: #ffcc00;
+    padding: 1rem;
+}
+
+#pricetable {
+    background-color: #19180A;
+    color: #ffcc00;
+    text-align: center;
+    width: 100%;
+    font-size: .8em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #19180A;
+    color: #ffcc00;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem;
+}
+
+iframe {
+    border-radius: .8rem;
+    margin: 1rem auto;
+}
+
+.social-media img {
+    justify-content: space-between;
+    width: 40px;
+    margin-left: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #00ccff;
+    color: #fffbff;
+    font-size: .8em;
+    border-bottom: 5px solid #19180A;
+}
+
+footer ul {
+    display: inline-flex;
+}
+
+footer a {
+    color: #fffbff;
+    text-decoration: none;
+}
+
+footer nav li a {
+    font-size: .75em;
+    padding: .5rem .8em;
+}
+
+table,
+th,
+td {
+    border: 1px solid #00ccff;
+    border-collapse: collapse;
+}
+
+.legal {
+    border: 25px solid transparent;
+    padding: 15px;
+    border-image: url(/images/borderpattern.webp) 30 round;
+    background-color: #0bc5f421;
+    margin: 1em auto;
+}
+
+.legal h2 {
+    text-align: center;
+    text-decoration: underline double #c4d7df;
+}
+
+/* Form with flex codepen */
+
+legend {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.form-area {
+    background-color: #ffcc00;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: .8em;
+}
+
+.form-area label {
+    display: block;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.comment-area {
+    display: flex;
+    flex-direction: column
+}
+
+textarea#comments {
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+    max-width: 350px;
+    background-color: #ff0033;
+    border-radius: 0 1rem 0 1rem;
+}
+
+/* Contact form without flex */
+
+.contactform {
+    background-color: #ffcc00;
+    padding: .2em 1em 0;
+    text-align: center;
+}
+
+.contactform ul {
+    padding-left: 0;
+}
+
+.contactform ul li {
+    margin: 8px auto;
+    list-style-type: none;
+}
+
+.submit {
+    background-color: #ff0033;
+    padding: .3em .7em;
+    font-weight: 800;
+    border-radius: 0 .5rem 0 .5rem;
+}
+
+.references {
+    background-color: #19180A;
+    color: #ffcc00;
+    padding: 1em 1.5em;
+}
+
+.references a {
+    color: #fffbff;
+}
+
+.tours {
+    background-color: #ffcc00;
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 1em 1.5em;
+}
+
+.tours a {
+    color: #19180A;
+    text-shadow: 1px 1px #ff0033;
+}

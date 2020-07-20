@@ -1,0 +1,52 @@
+{
+    "rentals": [
+        {
+            "name": "Honda Metro Scooter",
+            "maxperson": "1",
+            "reservedhalfday": "$20",
+            "reservedfullday": "$30",
+            "walkinhalfday": "$25",
+            "walkinfullday": "$35"
+        },
+        {
+            "name": "Honda Dio Scooter",
+            "maxperson": "2",
+            "reservedhalfday": "$30",
+            "reservedfullday": "$40",
+            "walkinhalfday": "$35",
+            "walkinfullday": "$45"
+        },
+        {
+            "name": "Honda PCX150 Scooter",
+            "maxperson": "2",
+            "reservedhalfday": "$40",
+            "reservedfullday": "$50",
+            "walkinhalfday": "$45",
+            "walkinfullday": "$55"
+        },
+        {
+            "name": "Honda Pioneer ATV",
+            "maxperson": "4",
+            "reservedhalfday": "$50",
+            "reservedfullday": "$70",
+            "walkinhalfday": "$60",
+            "walkinfullday": "$80"
+        },
+        {
+            "name": "Jeep Wrangler 2 door",
+            "maxperson": "4",
+            "reservedhalfday": "$60",
+            "reservedfullday": "$80",
+            "walkinhalfday": "$70",
+            "walkinfullday": "$90"
+        },
+        {
+            "name": "Jeep Wrangler 4 door",
+            "maxperson": "5",
+            "reservedhalfday": "$70",
+            "reservedfullday": "$100",
+            "walkinhalfday": "$85",
+            "walkinfullday": "$125"
+        }        
+    ]
+}
